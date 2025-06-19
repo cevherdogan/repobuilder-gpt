@@ -3,9 +3,11 @@
 This document clearly outlines the differences between the `repobuilder-gpt` and `repobuilder-gpt-pro` projects.
 It aims to detail the functional distinctions, target audiences, and practical use cases of each version.
 
+To get started, visit the main project landing in `README.md`. For a structured overview, see the comparison tables and design notes below.
+
 ---
 
-## 🧾 Key Design Notes Based on Implementation Questions
+## 📜 Key Design Notes Based on Implementation Questions
 
 Below are important considerations and insights raised during development and planning. These help preserve architectural intentions and ensure design integrity:
 
@@ -37,7 +39,19 @@ Below are important considerations and insights raised during development and pl
 
 ---
 
-## 🎯 Purpose
+## 🌟 SEO & Outreach Strategy
+
+For SEO-aligned releases and AI-powered article tracking, refer to the new additions in the SEO Hub:
+
+- [SEO Hub README](../../articles/seo_hub/README.md)
+- [LinkedIn Announcement Message](../../articles/medium/01-the-idea/linkedin_announcement.md)
+- [Medium Article Tracker](../../articles/seo_hub/article_tracker.md)
+
+These documents help ensure that outreach, backlinks, and engagement are strategically aligned across platforms.
+
+---
+
+## 🌞 Purpose
 - **Public Edition:** Educational examples, GPT templates, and basic repo generation tools for the open-source community.
 - **Pro Edition:** Advanced product configurations, zip packaging, integration code, and release management for commercial clients.
 
@@ -45,11 +59,11 @@ Below are important considerations and insights raised during development and pl
 
 | Feature                          | Public (`repobuilder-gpt`)                              | Pro (`repobuilder-gpt-pro`)                                  |
 |----------------------------------|----------------------------------------------------------|---------------------------------------------------------------|
-| 🎯 Purpose                        | Awareness, demos, community contribution                 | Client solutions, integrations, professional delivery         |
+| 🌟 Purpose                        | Awareness, demos, community contribution                 | Client solutions, integrations, professional delivery         |
 | 📂 Structure                      | Basic repo skeleton, templates, usage examples           | Product branches, integration branches, release configs       |
 | 🧠 GPT Configuration              | Simple YAML definition, example prompts                  | Extended schema, parameterized requests, build manifest       |
 | 📜 Licensing                      | MIT / CC-BY                                               | Commercial / Proprietary                                      |
-| 🧪 Demo / Sample Code             | ESG and FinTech scenarios                                | Real client adaptations, private payloads                     |
+| 💪 Demo / Sample Code             | ESG and FinTech scenarios                                | Real client adaptations, private payloads                     |
 | ⚙️ Script & Automation            | Preview CLI and initial commit/tag script                | Zip packaging engine, webhook trigger, automated builds       |
 | 📦 Zip Output                     | ❌ (demonstration only)                                  | ✅ (fully configured downloadable bundle)                      |
 | 🔐 Client Confidentiality         | Not required                                              | Critical – each product branch isolated                       |
@@ -74,6 +88,8 @@ Below are important considerations and insights raised during development and pl
 - `examples/`: ESG and FinTech input scenarios
 - `templates/`: Structure templates and dual-license samples
 - `scripts/init_commit_and_tag.sh`: Smart commit-tag automation script
+- `articles/medium/01-the-idea/`: Markdown article, cover, LinkedIn message
+- `articles/seo_hub/`: Article tracker, relationship map, SEO tracking tools
 
 ### Pro (`repobuilder-gpt-pro`)
 - `commercial_notes.md`: Product branching and integration strategy
@@ -81,4 +97,10 @@ Below are important considerations and insights raised during development and pl
 - `deploy/`: Webhook trigger script
 - `integrations/`: GitHub Actions & OpenAI API integration folders
 - `client_specific_payload.json`: Sample client-specific configuration
+
+---
+
+This structure ensures users can choose the edition that fits their needs, or transition from the public edition to the commercial one with confidence.
+
+For a high-level summary, always start with the `README.md` file in each repository. For this repo it is at [README.md](../README.md)
 
