@@ -1,5 +1,9 @@
 # RepoBuilderGPT
 
+<p align="center">
+  <img src="articles/medium/01-the-idea/article_cover_pg_1.png" alt="RepoBuilderGPT Cover" width="600"/>
+</p>
+
 This is the public version of **RepoBuilderGPT** — a tool that generates structured Git repositories based on project ideas.
 
 ## Features

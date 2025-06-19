@@ -51,7 +51,32 @@ These documents help ensure that outreach, backlinks, and engagement are strateg
 
 ---
 
-## 🌞 Purpose
+## 💞 WhatsApp Announcement
+
+**🧠🚀 NEW GPT-Powered Tool for Developers & AI Builders!**
+
+Hi 👋  
+We just released **RepoBuilderGPT** — a smart, AI-powered tool to scaffold entire GitHub repos from your ideas. It comes in two flavors:
+
+🔓 **Public version:**  
+- Generates open-source repo templates  
+- ESG & FinTech demo prompts  
+- MIT licensed & free to explore  
+📌 [Public Repo](https://github.com/cevherdogan/repobuilder-gpt)
+
+🔒 **Pro version (invite-only):**  
+- Builds client-ready packages  
+- Webhook + CI/CD ready  
+- Custom GPT config, branch isolation  
+📌 [Pro Overview](https://github.com/cevherdogan/repobuilder-gpt-pro) *(invite-only, DM me)*
+
+Let me know if you’d like to collaborate or explore how GPT can automate your repo workflows. This is just the beginning 🎯
+
+#AI #DevTools #opensource #automation #RepoBuilderGPT
+
+---
+
+## ☀️ Purpose
 - **Public Edition:** Educational examples, GPT templates, and basic repo generation tools for the open-source community.
 - **Pro Edition:** Advanced product configurations, zip packaging, integration code, and release management for commercial clients.
 
@@ -103,4 +128,5 @@ These documents help ensure that outreach, backlinks, and engagement are strateg
 This structure ensures users can choose the edition that fits their needs, or transition from the public edition to the commercial one with confidence.
 
 For a high-level summary, always start with the `README.md` file in each repository. For this repo it is at [README.md](../README.md)
+
 
