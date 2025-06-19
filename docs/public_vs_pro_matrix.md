@@ -21,6 +21,18 @@ It aims to detail the functional distinctions, target audiences, and practical u
 | 🔐 Client Confidentiality         | Not required                                              | Critical – each product branch isolated                       |
 | 🚀 Release Strategy               | Manual GitHub Releases                                   | Branch-based configuration release management                 |
 
+## ✅ GPT Engine Feature Comparison
+
+| Feature                        | Public GPT (`RepoBuilderGPT`)     | Pro GPT (`RepoBuilderGPT Pro`)     |
+|-------------------------------|-----------------------------------|------------------------------------|
+| Demo structure generation     | ✅                                | ✅                                 |
+| Custom config creation        | 🔒 (limited to examples)          | ✅ (fully parameterized)           |
+| Zip output delivery           | ❌ (simulation only)              | ✅ (complete file system zip)      |
+| API trigger support           | ❌                                | ✅                                 |
+| Client-specific examples      | ❌                                | ✅ (anonymized if needed)          |
+| License                       | MIT                               | Commercial (Proprietary)          |
+
+
 ## 🛠️ Documentation Plan
 
 ### Public (`repobuilder-gpt`)
