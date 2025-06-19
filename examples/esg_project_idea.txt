@@ -1,0 +1,3 @@
+Project: ESG Tracker
+- Features: Emission dashboard, carbon calculator
+- Output: Public + commercial repo split with dual license

@@ -1,0 +1,7 @@
+main:
+  - README.md
+  - LICENSE
+  - docs/
+  - templates/
+  - code/
+  - scripts/
