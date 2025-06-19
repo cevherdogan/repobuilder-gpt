@@ -3,7 +3,7 @@
 This document clearly outlines the differences between the `repobuilder-gpt` and `repobuilder-gpt-pro` projects.
 It aims to detail the functional distinctions, target audiences, and practical use cases of each version.
 
-To get started, visit the main project landing in `README.md`. For a structured overview, see the comparison tables and design notes below.
+For a high-level summary, always start with the `README.md` file in each repository. For this repo it is at [README.md](../README.md)
 
 ---
 
@@ -46,12 +46,13 @@ For SEO-aligned releases and AI-powered article tracking, refer to the new addit
 - [SEO Hub README](../../articles/seo_hub/README.md)
 - [LinkedIn Announcement Message](../../articles/medium/01-the-idea/linkedin_announcement.md)
 - [Medium Article Tracker](../../articles/seo_hub/article_tracker.md)
+- [WhatsApp Announcement Snippets](../../articles/seo_hub/whatsapp_announcement.md)
 
 These documents help ensure that outreach, backlinks, and engagement are strategically aligned across platforms.
 
 ---
 
-## 💞 WhatsApp Announcement
+## 💖 WhatsApp Announcement
 
 **🧠🚀 NEW GPT-Powered Tool for Developers & AI Builders!**
 
@@ -115,6 +116,8 @@ Let me know if you’d like to collaborate or explore how GPT can automate your 
 - `scripts/init_commit_and_tag.sh`: Smart commit-tag automation script
 - `articles/medium/01-the-idea/`: Markdown article, cover, LinkedIn message
 - `articles/seo_hub/`: Article tracker, relationship map, SEO tracking tools
+  - `whatsapp_announcement.md`: Announcements for messaging platforms
+  - Files prefixed with `whatsapp_` will trigger webhook-based automation via GitHub Actions
 
 ### Pro (`repobuilder-gpt-pro`)
 - `commercial_notes.md`: Product branching and integration strategy

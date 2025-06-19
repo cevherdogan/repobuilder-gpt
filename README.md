@@ -1,5 +1,11 @@
 # RepoBuilderGPT
 
+## 🔔 Announcements
+
+[![WhatsApp Announcement](https://github.com/cevherdogan/repobuilder-gpt/actions/workflows/whatsapp_announcement.yml/badge.svg)](https://github.com/cevherdogan/repobuilder-gpt/actions/workflows/whatsapp_announcement.yml)
+
+This badge shows the latest status of the WhatsApp announcement automation triggered on commits to `main` under `articles/seo_hub/whatsapp_*.md`.
+
 <p align="center">
   <img src="articles/medium/01-the-idea/article_cover_pg_1.png" alt="RepoBuilderGPT Cover" width="600"/>
 </p>

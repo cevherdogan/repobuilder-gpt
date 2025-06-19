@@ -1,0 +1,2 @@
+- name: Log WhatsApp announcement trigger
+  run: echo "✅ WhatsApp announcement sent on $(date)" >> articles/seo_hub/announcement_log.md

@@ -1,0 +1,24 @@
+name: WhatsApp Announcement Webhook
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'articles/seo_hub/whatsapp_announcement.md'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger WhatsApp Webhook
+        run: |
+          curl -X POST ${{ secrets.WHATSAPP_WEBHOOK_URL }} \
+          -H "Content-Type: application/json" \
+          -d '{
+            "text": "🚀 New WhatsApp announcement markdown merged to main!"
+          }'
+
+# moved to under a seperate instructional/WFA for demo/illustration
+#- name: Log announcement trigger
+#  run: echo "✅ WhatsApp announcement sent on $(date)" >> announcement_log.md
